@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Momentom App</title>
+    <link rel="stylesheet" href="src/styles.css" />
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <form class="hidden" id="login-form">
+      <input
+        required
+        maxlength="15"
+        type="text"
+        placeholder="What is your name?"
+      />
+      <input type="submit" value="Log In" />
+    </form>
+    <form id="todo-form">
+      <input type="text" placeholder="write here" required />
+    </form>
+    <ul id="todo-list"></ul>
+    <h1 class="hidden" id="greeting"></h1>
+    <h2 id="clock"></h2>
+    <div id="quote">
+      <span></span>
+      <span></span>
+    </div>
+    <div id="weather">
+      <span></span>
+      <span></span>
+    </div>
+    <script src="src/greeting.js"></script>
+    <script src="src/clock.js"></script>
+    <script src="src/quotes.js"></script>
+    <script src="src/background.js"></script>
+    <script src="src/todo.js"></script>
+    <script src="src/weather.js"></script>
+  </body>
+</html>
